@@ -30,7 +30,7 @@ mybutton.addEventListener("click", (e)=>{
 )
 
 
-function myFunction() {
+function mobileIcon() {
   document.querySelectorAll(".navBar")[0].classList.toggle("responsive");
 }
 
