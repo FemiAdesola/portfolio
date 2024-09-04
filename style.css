@@ -68,7 +68,8 @@ h3 {
 
 /* --------- Header list ------------------------*/
 header{
-  background-image:url("https://source.unsplash.com/cFplR9ZGnAk");
+  /* background-image:url("https://source.unsplash.com/cFplR9ZGnAk"); */
+  background-image: url('/img/Background.png');  
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -82,7 +83,7 @@ header ul{
 
 header ul li {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 header nav a {
@@ -220,7 +221,7 @@ section{
 .card:hover{
   background-color: var(--color-3);
   transform: scale(0.8);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .card img{
