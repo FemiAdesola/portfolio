@@ -314,7 +314,7 @@ progress[value]::-webkit-progress-value {
 .gallery img:hover{
  transform: scale(1.5);
   transition: 2s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .gallery{
   padding: 10px;
